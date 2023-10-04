@@ -35,7 +35,7 @@ $config['base_url'] = '';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = 'index.php';
+$config['index_page'] = "";
 
 /*
 |--------------------------------------------------------------------------
@@ -66,7 +66,7 @@ $config['uri_protocol']	= 'REQUEST_URI';
 |
 | Note: This option is ignored for CLI requests.
 */
-$config['url_suffix'] = '';
+$config['url_suffix'] = "";
 
 /*
 |--------------------------------------------------------------------------
@@ -236,7 +236,7 @@ $config['log_threshold'] = 0;
 | application/logs/ directory. Use a full server path with trailing slash.
 |
 */
-$config['log_path'] = '';
+$config['log_path'] = "";
 
 /*
 |--------------------------------------------------------------------------
